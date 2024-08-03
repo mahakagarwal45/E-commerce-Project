@@ -1,0 +1,42 @@
+/* Navbar.css */
+.navbar {
+  background-color: #2e6031; /* medium green */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #FFFFFF; /* white */
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto; /* Shift to the right */
+  padding-right: 50px; /* Adjust padding to shift right */
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #FFFFFF; /* white */
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #2196F3;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px; /* Add margin to create space between buttons */
+}
