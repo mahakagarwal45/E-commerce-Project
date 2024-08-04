@@ -12,6 +12,7 @@
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav-items {
@@ -19,6 +20,7 @@
   list-style-type: none;
   margin-left: auto; /* Shift to the right */
   padding-right: 50px; /* Adjust padding to shift right */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-item {
@@ -36,7 +38,8 @@
   color: #FFFFFF;
   padding: 10px 20px;
   border: none;
+  margin-right: 30px;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 10px; /* Add margin to create space between buttons */
+  margin-left: 10px;
 }

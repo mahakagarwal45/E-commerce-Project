@@ -1,0 +1,11 @@
+.FAQ {
+    background-color: aliceblue;
+    height: fit-content;
+    width: fit-content;
+}
+.main p{
+    box-sizing: border-box;
+    font-size: medium;
+    font-style:normal;
+    margin-top: 90px;
+}

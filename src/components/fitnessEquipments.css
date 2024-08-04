@@ -1,0 +1,46 @@
+.fitnessEquipments {
+    padding: 50px;
+    background-color: #ddb1b1;}
+
+.fitnessEquipments h2 {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.fitnessEquipments ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fitnessEquipments li {
+    background-color: #ffffffe9;
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.fitnessEquipments-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fitnessEquipments-info {
+    margin-top: 10px;
+}
+
+.fitnessEquipments-info h3 {
+    margin: 0;
+}
+
+.fitnessEquipments-info p {
+    margin: 5px 0 0;
+}

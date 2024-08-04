@@ -1,0 +1,113 @@
+/* 
+.product-categories {
+    padding: 50px;
+    background-color: #ddb1b1;
+    background-image: url('C:\Users\hpmah\Downloads\background.png')
+}
+
+.product-categories h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-categories ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-categories li {
+    background-color: #ffffffe9;
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category-info {
+    margin-top: 10px;
+}
+
+.category-info h3 {
+    margin: 0;
+}
+
+.category-info p {
+    margin: 5px 0 0;
+} */
+
+
+.health-categories {
+    padding: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('C:\Users\hpmah\Downloads\background.png')
+}
+
+.health-categories h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.devices-info {
+    flex: 1;
+}
+
+.devices-info h3 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.devices-info p {
+    font-size: 1rem;
+    margin: 0 0 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}

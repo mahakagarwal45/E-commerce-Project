@@ -1,0 +1,259 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-image {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6); 
+    object-fit: cover;
+    
+    
+  }
+
+  .nav-link {
+    color: #FFFFFF; /* white */
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .full-image-img {
+    width: 100%;
+    height: 700px; 
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+
+  .quote-section {
+    flex: 1;
+    padding: 20px;
+    color: #042a5f; 
+    text-align: left;
+  }
+  
+  .quote {
+    font-size: 1.2em;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .heading{
+    color:rgba(60, 237, 95, 0.789);
+    text-decoration: solid;
+  }
+
+
+.left-side-text {
+  position: absolute; 
+  left: 30px;
+  top: 60%; 
+  transform: translateY(-50%); 
+  color: white;
+  padding: 20px;
+  text-align: center; 
+}
+
+.button {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  padding: 12px 20px; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: #320f6b; /* Darker green on hover */
+}
+
+.button:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Add a focus shadow */
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background: #fdf6f6;
+}
+
+.info-item {
+  text-align: center;
+  flex: 1;
+}
+
+.icon {
+  font-size: 24px; /* Adjust icon size */
+  color: #007bff; /* Matching the button color */
+}
+
+.info-text h3 {
+  margin: 10px 0 5px;
+  color: #0a0808;
+}
+
+.info-text p {
+  color: #154125;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  color: #042a5f;
+}
+
+.left-section {
+  flex: 1;
+  height: 10px;
+ 
+}
+
+.center-section {
+  flex: 2;
+  padding: 0 50px;
+  color: #111b44;
+}
+
+.center-title {
+  color: #ffd700;
+}
+
+.center-heading {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.center-description {
+  margin: 20px 0;
+}
+
+.center-list {
+  list-style: none;
+  padding: 0;
+}
+
+.center-list li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.center-list img {
+  margin-right: 10px;
+}
+
+.learn-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  border: none;
+  color: #000;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.signature img {
+  margin-right: 10px;
+}
+
+.right-section {
+  flex: 1;
+  background-color: #fc3d3d;
+  padding: 20px;
+  text-align: center;
+}
+
+.opening-hours-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.opening-hours-time {
+  margin: 10px 0;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+.info-text h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.info-text p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+
+.popular-properties-section {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: solid;
+}
+
+.properties-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.property-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 400px;
+  text-align: center;
+  margin: 45px;
+  width: calc(33% - 30px); /* Adjust width based on margin */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+}
+
+.property-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.property-location,
+.property-added,
+.property-details,
+.property-price {
+  font-size: 14px;
+  margin: 5px 0;
+}

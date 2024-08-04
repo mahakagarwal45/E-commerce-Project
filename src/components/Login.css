@@ -1,0 +1,64 @@
+/* Login.css */
+.main-container {
+    height: 100vh;
+    background: url('https://wallpapercave.com/wp/KfjLIql.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-left: 100px;
+  }
+  
+  .login-box {
+    background: rgb(25, 14, 174);
+      border: rgb(31, 71, 80);
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(155, 16, 16, 0.93), 0 6px 20px rgba(0, 0, 0, 0.19); /* Beautiful reflection effect */
+  
+  }
+  
+  .login-box h1 {
+    color: #fdf9f9;
+    text-decoration: underline;
+  }
+  
+  .login-box .form-group label {
+    font-weight: bold;
+    color: #d6d3d3;
+    font-size: 20px;
+  }
+  
+  .login-box .form-group input {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .login-box button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .login-box button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .login-box a {
+    color: #007bff;
+  }
+  
+  .login-box a:hover {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  .text-center{
+    color: aqua;
+  }

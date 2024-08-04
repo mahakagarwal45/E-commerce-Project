@@ -1,0 +1,48 @@
+/* src/components/ProductCategories.css */
+.product-categories {
+    padding: 50px;
+    background-color: #ddb1b1;
+    background-image: url('/src/components/background.webp')
+}
+
+.product-categories h2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.product-categories ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-categories li {
+    background-color: #ffffffe9;
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category-info {
+    margin-top: 10px;
+}
+
+.category-info h3 {
+    margin: 0;
+}
+
+.category-info p {
+    margin: 5px 0 0;
+}

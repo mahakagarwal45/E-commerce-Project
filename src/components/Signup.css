@@ -1,0 +1,53 @@
+
+.main-container {
+    height: 100vh;
+    background: url('https://wallpapercave.com/wp/KfjLIql.jpg');
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+    background-size: cover;
+    margin-left: 0;
+  }
+  
+  .signup-box {
+    background: rgb(65, 27, 255);
+    border: rgb(48, 105, 126);
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 0px;
+}
+  
+  .signup-box h2 {
+    color: #e1d3d3;
+    margin-left: 0;
+    text-decoration: underline;
+  }
+  
+  .signup-box .form-group label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .signup-box .form-group input {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+  
+  .signup-box button {
+    background-color: #adaab1;
+    border-color: #cfc7d7;
+    color: rgb(18, 14, 20);
+    text-decoration: solid;
+  }
+  
+  .signup-box button:hover {
+    background-color: #2575fc;
+    border-color: #2575fc;
+  }
+  

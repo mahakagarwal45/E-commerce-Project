@@ -1,0 +1,46 @@
+.StressReliefTool {
+    padding: 50px;
+    background-color:aliceblue;
+}
+
+.StressReliefTool h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.StressReliefTool ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.StressReliefTool li {
+    background-color: #ffffffe9;
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.StressReliefTool-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.StressReliefTool-info {
+    margin-top: 10px;
+}
+
+.StressReliefTool-info h3 {
+    margin: 0;
+}
+
+.StressReliefTool-info p {
+    margin: 5px 0 0;
+}
